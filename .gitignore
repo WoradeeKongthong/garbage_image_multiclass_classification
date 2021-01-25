@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
+zero-indexed-files.txt
+images
+images/*
+data
+data/*
+*.h5
