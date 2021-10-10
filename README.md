@@ -28,14 +28,4 @@ The models used in this multiclass classification problem are
 
 ## Prediction
 The best model from above are selected and make a prediction.  
-(Note : Need to get model.h5 from the selected model ipython notebook by running it first,  
-or you can get my model .h5 files at the bottom of this README)
-The prediction process is presented in 06_make_prediction.ipynb.  
 There are both prediction of one image and several images (batch) at a time.
-
-## My best trained models
-- model with pretrained ResNet50 : https://drive.google.com/file/d/13AZ_KiVfI5IpTpWt_D0Zf_E0OSIE4rqJ/view?usp=sharing
-## other trained models
-- simple CNN model : https://drive.google.com/file/d/1--QGWjBmwef1DYaHOF0tvnQD9TTKwa6s/view?usp=sharing
-- VGG blocks model : https://drive.google.com/file/d/1bLMOSJlz0zAyp2_0lWm7ecl_LjUZe-XT/view?usp=sharing
-- model with pretrained VGG16 : https://drive.google.com/file/d/1QoCPfVF4_Zop4JEPvMZegcyETAA-eocE/view?usp=sharing
