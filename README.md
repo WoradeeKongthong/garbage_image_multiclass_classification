@@ -17,8 +17,8 @@ The dataset is separated into train, validation and test sets as shown in these 
 - one-indexed-files-notrash_val.txt
 - one-indexed-files-notrash_test.txt  
 
-The images in original folder named 'images' are managed to be in the file structure to be able to work with Keras ImageDataGenerator object as in folder name 'data'.  
-All process of this preparation is in 01_data_preparation.ipynb.
+The images in original folder named 'images' are managed to be in the file structure to be able to work with Keras ImageDataGenerator object as in folder name 'dataset'.  
+The process of preparation is included in the notebook.  
 
 ## Model Development (are performed on Google COLAB)
 The models used in this multiclass classification problem are  
