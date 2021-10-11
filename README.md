@@ -15,16 +15,17 @@ The dataset is collected from https://www.kaggle.com/asdasdasasdas/garbage-class
 The dataset is separated into train, validation and test sets as shown in these 3 files :
 - one-indexed-files-notrash_train.txt
 - one-indexed-files-notrash_val.txt
-- one-indexed-files-notrash_test.txt
+- one-indexed-files-notrash_test.txt  
+
 The images in original folder named 'images' are managed to be in the file structure to be able to work with Keras ImageDataGenerator object as in folder name 'data'.  
 All process of this preparation is in 01_data_preparation.ipynb.
 
 ## Model Development (are performed on Google COLAB)
 The models used in this multiclass classification problem are  
-- simple CNN (developed in 02_simple_CNN.ipynb)
-- NN with VGG blocks (developed in 03_VGG_blocks.ipynb)
-- NN with Keras pre-trained VGG16 as a feature extractor (developed in 04_pretrained_VGG16.ipynb)
-- NN with Keras pre-trained ResNet50 as a feature extractor (developed in 05_pretrained_ResNet50.ipynb)
+- simple CNN
+- NN with VGG blocks 
+- NN with Keras pre-trained VGG16 as a feature extractor 
+- NN with Keras pre-trained ResNet50 as a feature extractor 
 
 ## Prediction
 The best model from above are selected and make a prediction.  
